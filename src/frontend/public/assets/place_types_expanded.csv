@@ -1,0 +1,178 @@
+id,place_type,category_id,category_name,file_name,riddle_description,enemy_type
+1,restaurant,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+2,cafe,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+3,bar,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+4,night_club,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+5,bakery,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+6,fast_food,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+7,food_court,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+8,coffee_shop,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+9,meal_delivery,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+10,meal_takeaway,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+11,ice_cream_shop,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+12,pizza_restaurant,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+13,seafood_restaurant,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+14,steak_house,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+15,sushi_restaurant,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+16,thai_restaurant,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+17,indian_restaurant,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+18,chinese_restaurant,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+19,japanese_restaurant,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+20,korean_restaurant,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+21,french_restaurant,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+22,greek_restaurant,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+23,mexican_restaurant,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+24,italian_restaurant,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+25,turkish_restaurant,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+26,vegan_restaurant,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+27,vegetarian_restaurant,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+28,wine_bar,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+29,pub,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+30,tea_house,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+31,deli,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+32,diner,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+33,donut_shop,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+34,sandwich_shop,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+35,chocolate_shop,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+36,juice_shop,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+37,bagel_shop,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+38,candy_store,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+39,dessert_shop,1,Food_drink,domovoy.png,"The riddle should be about food, meals, or drinks. ",Domovoy
+40,store,2,Shopping_retail,djinn.png,"The riddle should be about shops, items you buy, or things sold in stores. ",Djinn
+41,shopping_mall,2,Shopping_retail,djinn.png,"The riddle should be about shops, items you buy, or things sold in stores. ",Djinn
+42,convenience_store,2,Shopping_retail,djinn.png,"The riddle should be about shops, items you buy, or things sold in stores. ",Djinn
+43,clothing_store,2,Shopping_retail,djinn.png,"The riddle should be about shops, items you buy, or things sold in stores. ",Djinn
+44,book_store,2,Shopping_retail,djinn.png,"The riddle should be about shops, items you buy, or things sold in stores. ",Djinn
+45,electronics_store,2,Shopping_retail,djinn.png,"The riddle should be about shops, items you buy, or things sold in stores. ",Djinn
+46,department_store,2,Shopping_retail,djinn.png,"The riddle should be about shops, items you buy, or things sold in stores. ",Djinn
+47,discount_store,2,Shopping_retail,djinn.png,"The riddle should be about shops, items you buy, or things sold in stores. ",Djinn
+48,shoe_store,2,Shopping_retail,djinn.png,"The riddle should be about shops, items you buy, or things sold in stores. ",Djinn
+49,furniture_store,2,Shopping_retail,djinn.png,"The riddle should be about shops, items you buy, or things sold in stores. ",Djinn
+50,hardware_store,2,Shopping_retail,djinn.png,"The riddle should be about shops, items you buy, or things sold in stores. ",Djinn
+51,home_goods_store,2,Shopping_retail,djinn.png,"The riddle should be about shops, items you buy, or things sold in stores. ",Djinn
+52,jewelry_store,2,Shopping_retail,djinn.png,"The riddle should be about shops, items you buy, or things sold in stores. ",Djinn
+53,liquor_store,2,Shopping_retail,djinn.png,"The riddle should be about shops, items you buy, or things sold in stores. ",Djinn
+54,florist,2,Shopping_retail,djinn.png,"The riddle should be about shops, items you buy, or things sold in stores. ",Djinn
+55,pet_store,2,Shopping_retail,djinn.png,"The riddle should be about shops, items you buy, or things sold in stores. ",Djinn
+56,toy_store,2,Shopping_retail,djinn.png,"The riddle should be about shops, items you buy, or things sold in stores. ",Djinn
+57,wholesale_store,2,Shopping_retail,djinn.png,"The riddle should be about shops, items you buy, or things sold in stores. ",Djinn
+58,supermarket,2,Shopping_retail,djinn.png,"The riddle should be about shops, items you buy, or things sold in stores. ",Djinn
+59,pharmacy,3,Health_wellness,vampire.png,"The riddle should be about health, exercise, or the human body. ",Vampire
+60,hospital,3,Health_wellness,vampire.png,"The riddle should be about health, exercise, or the human body. ",Vampire
+61,doctor,3,Health_wellness,vampire.png,"The riddle should be about health, exercise, or the human body. ",Vampire
+62,clinic,3,Health_wellness,vampire.png,"The riddle should be about health, exercise, or the human body. ",Vampire
+63,dentist,3,Health_wellness,vampire.png,"The riddle should be about health, exercise, or the human body. ",Vampire
+64,physiotherapist,3,Health_wellness,vampire.png,"The riddle should be about health, exercise, or the human body. ",Vampire
+65,chiropractor,3,Health_wellness,vampire.png,"The riddle should be about health, exercise, or the human body. ",Vampire
+66,veterinary_care,3,Health_wellness,vampire.png,"The riddle should be about health, exercise, or the human body. ",Vampire
+67,spa,3,Health_wellness,vampire.png,"The riddle should be about health, exercise, or the human body. ",Vampire
+68,gym,3,Health_wellness,vampire.png,"The riddle should be about health, exercise, or the human body. ",Vampire
+69,health,3,Health_wellness,vampire.png,"The riddle should be about health, exercise, or the human body. ",Vampire
+70,medical_lab,3,Health_wellness,vampire.png,"The riddle should be about health, exercise, or the human body. ",Vampire
+71,drugstore,3,Health_wellness,vampire.png,"The riddle should be about health, exercise, or the human body. ",Vampire
+72,school,4,Education_culture,sphinx.png,"The riddle should be about learning, school, or culture (like books, music, art). ",Sphinx
+73,primary_school,4,Education_culture,sphinx.png,"The riddle should be about learning, school, or culture (like books, music, art). ",Sphinx
+74,secondary_school,4,Education_culture,sphinx.png,"The riddle should be about learning, school, or culture (like books, music, art). ",Sphinx
+75,preschool,4,Education_culture,sphinx.png,"The riddle should be about learning, school, or culture (like books, music, art). ",Sphinx
+76,university,4,Education_culture,sphinx.png,"The riddle should be about learning, school, or culture (like books, music, art). ",Sphinx
+77,library,4,Education_culture,sphinx.png,"The riddle should be about learning, school, or culture (like books, music, art). ",Sphinx
+78,art_gallery,4,Education_culture,sphinx.png,"The riddle should be about learning, school, or culture (like books, music, art). ",Sphinx
+79,museum,4,Education_culture,sphinx.png,"The riddle should be about learning, school, or culture (like books, music, art). ",Sphinx
+80,performing_arts_theater,4,Education_culture,sphinx.png,"The riddle should be about learning, school, or culture (like books, music, art). ",Sphinx
+81,theater,4,Education_culture,sphinx.png,"The riddle should be about learning, school, or culture (like books, music, art). ",Sphinx
+82,auditorium,4,Education_culture,sphinx.png,"The riddle should be about learning, school, or culture (like books, music, art). ",Sphinx
+83,concert_hall,4,Education_culture,sphinx.png,"The riddle should be about learning, school, or culture (like books, music, art). ",Sphinx
+84,movie_theater,4,Education_culture,sphinx.png,"The riddle should be about learning, school, or culture (like books, music, art). ",Sphinx
+85,amphitheatre,4,Education_culture,sphinx.png,"The riddle should be about learning, school, or culture (like books, music, art). ",Sphinx
+86,stadium,4,Education_culture,sphinx.png,"The riddle should be about learning, school, or culture (like books, music, art). ",Sphinx
+87,arena,4,Education_culture,sphinx.png,"The riddle should be about learning, school, or culture (like books, music, art). ",Sphinx
+88,church,4,Education_culture,sphinx.png,"The riddle should be about learning, school, or culture (like books, music, art). ",Sphinx
+89,mosque,4,Education_culture,sphinx.png,"The riddle should be about learning, school, or culture (like books, music, art). ",Sphinx
+90,synagogue,4,Education_culture,sphinx.png,"The riddle should be about learning, school, or culture (like books, music, art). ",Sphinx
+91,hindu_temple,4,Education_culture,sphinx.png,"The riddle should be about learning, school, or culture (like books, music, art). ",Sphinx
+92,place_of_worship,4,Education_culture,sphinx.png,"The riddle should be about learning, school, or culture (like books, music, art). ",Sphinx
+93,park,5,Entertainment_leisure,dragon.png,math,Dragon
+94,tourist_attraction,5,Entertainment_leisure,dragon.png,math,Dragon
+95,zoo,5,Entertainment_leisure,dragon.png,math,Dragon
+96,aquarium,5,Entertainment_leisure,dragon.png,math,Dragon
+97,botanical_garden,5,Entertainment_leisure,dragon.png,math,Dragon
+98,garden,5,Entertainment_leisure,dragon.png,math,Dragon
+99,national_park,5,Entertainment_leisure,dragon.png,math,Dragon
+100,wildlife_park,5,Entertainment_leisure,dragon.png,math,Dragon
+101,amusement_park,5,Entertainment_leisure,dragon.png,math,Dragon
+102,amusement_center,5,Entertainment_leisure,dragon.png,math,Dragon
+103,theme_park,5,Entertainment_leisure,dragon.png,math,Dragon
+104,water_park,5,Entertainment_leisure,dragon.png,math,Dragon
+105,bowling_alley,5,Entertainment_leisure,dragon.png,math,Dragon
+106,casino,5,Entertainment_leisure,dragon.png,math,Dragon
+107,nightlife,5,Entertainment_leisure,dragon.png,math,Dragon
+108,gas_station,6,Transportation_travel,scylla.png,"The riddle should be about travel or transport (cars, trains, buses, airports). ",Scylla
+109,parking,6,Transportation_travel,scylla.png,"The riddle should be about travel or transport (cars, trains, buses, airports). ",Scylla
+110,bus_station,6,Transportation_travel,scylla.png,"The riddle should be about travel or transport (cars, trains, buses, airports). ",Scylla
+111,train_station,6,Transportation_travel,scylla.png,"The riddle should be about travel or transport (cars, trains, buses, airports). ",Scylla
+112,subway_station,6,Transportation_travel,scylla.png,"The riddle should be about travel or transport (cars, trains, buses, airports). ",Scylla
+113,transit_station,6,Transportation_travel,scylla.png,"The riddle should be about travel or transport (cars, trains, buses, airports). ",Scylla
+114,airport,6,Transportation_travel,scylla.png,"The riddle should be about travel or transport (cars, trains, buses, airports). ",Scylla
+115,taxi_stand,6,Transportation_travel,scylla.png,"The riddle should be about travel or transport (cars, trains, buses, airports). ",Scylla
+116,car_rental,6,Transportation_travel,scylla.png,"The riddle should be about travel or transport (cars, trains, buses, airports). ",Scylla
+117,car_repair,6,Transportation_travel,scylla.png,"The riddle should be about travel or transport (cars, trains, buses, airports). ",Scylla
+118,car_dealer,6,Transportation_travel,scylla.png,"The riddle should be about travel or transport (cars, trains, buses, airports). ",Scylla
+119,car_wash,6,Transportation_travel,scylla.png,"The riddle should be about travel or transport (cars, trains, buses, airports). ",Scylla
+120,electric_vehicle_charging_station,6,Transportation_travel,scylla.png,"The riddle should be about travel or transport (cars, trains, buses, airports). ",Scylla
+121,rest_stop,6,Transportation_travel,scylla.png,"The riddle should be about travel or transport (cars, trains, buses, airports). ",Scylla
+122,lodging,6,Transportation_travel,scylla.png,"The riddle should be about travel or transport (cars, trains, buses, airports). ",Scylla
+123,hotel,6,Transportation_travel,scylla.png,"The riddle should be about travel or transport (cars, trains, buses, airports). ",Scylla
+124,motel,6,Transportation_travel,scylla.png,"The riddle should be about travel or transport (cars, trains, buses, airports). ",Scylla
+125,resort_hotel,6,Transportation_travel,scylla.png,"The riddle should be about travel or transport (cars, trains, buses, airports). ",Scylla
+126,guest_house,6,Transportation_travel,scylla.png,"The riddle should be about travel or transport (cars, trains, buses, airports). ",Scylla
+127,hostel,6,Transportation_travel,scylla.png,"The riddle should be about travel or transport (cars, trains, buses, airports). ",Scylla
+128,bed_and_breakfast,6,Transportation_travel,scylla.png,"The riddle should be about travel or transport (cars, trains, buses, airports). ",Scylla
+129,inn,6,Transportation_travel,scylla.png,"The riddle should be about travel or transport (cars, trains, buses, airports). ",Scylla
+130,campground,6,Transportation_travel,scylla.png,"The riddle should be about travel or transport (cars, trains, buses, airports). ",Scylla
+131,rv_park,6,Transportation_travel,scylla.png,"The riddle should be about travel or transport (cars, trains, buses, airports). ",Scylla
+132,cottage,6,Transportation_travel,scylla.png,"The riddle should be about travel or transport (cars, trains, buses, airports). ",Scylla
+133,caravan_park,6,Transportation_travel,scylla.png,"The riddle should be about travel or transport (cars, trains, buses, airports). ",Scylla
+134,ferry_terminal,6,Transportation_travel,scylla.png,"The riddle should be about travel or transport (cars, trains, buses, airports). ",Scylla
+135,light_rail_station,6,Transportation_travel,scylla.png,"The riddle should be about travel or transport (cars, trains, buses, airports). ",Scylla
+136,tram_station,6,Transportation_travel,scylla.png,"The riddle should be about travel or transport (cars, trains, buses, airports). ",Scylla
+137,bus_stop,6,Transportation_travel,scylla.png,"The riddle should be about travel or transport (cars, trains, buses, airports). ",Scylla
+138,seaport,6,Transportation_travel,scylla.png,"The riddle should be about travel or transport (cars, trains, buses, airports). ",Scylla
+139,harbor,6,Transportation_travel,scylla.png,"The riddle should be about travel or transport (cars, trains, buses, airports). ",Scylla
+140,point_of_interest,7,General_poi,troll.png, ,Troll
+141,neighborhood,NA,General_non_poi,, ,
+142,natural_feature,7,General_poi,troll.png, ,Troll
+143,establishment,7,General_poi,troll.png, ,Troll
+144,sublocality,7,General_poi,troll.png, ,Troll
+145,locality,7,General_poi,troll.png, ,Troll
+146,administrative_area_level_1,NA,General_non_poi,, ,
+147,administrative_area_level_2,NA,General_non_poi,, ,
+148,administrative_area_level_3,NA,General_non_poi,, ,
+149,administrative_area_level_4,NA,General_non_poi,, ,
+150,administrative_area_level_5,NA,General_non_poi,, ,
+151,political,NA,General_non_poi,, ,
+152,route,NA,General_non_poi,, ,
+153,street_address,NA,General_non_poi,, ,
+154,premise,NA,General_non_poi,, ,
+155,intersection,NA,General_non_poi,, ,
+156,geocode,NA,General_non_poi,, ,
+157,colloquial_area,NA,General_non_poi,, ,
+158,country,NA,General_non_poi,, ,
+159,continent,NA,General_non_poi,, ,
+160,postal_code,NA,General_non_poi,, ,
+161,postal_code_prefix,NA,General_non_poi,, ,
+162,postal_code_suffix,NA,General_non_poi,, ,
+163,postal_town,NA,General_non_poi,, ,
+164,plus_code,NA,General_non_poi,, ,
+165,city_hall,7,General_poi,troll.png, ,Troll
+166,courthouse,7,General_poi,troll.png, ,Troll
+167,embassy,7,General_poi,troll.png, ,Troll
+168,fire_station,7,General_poi,troll.png, ,Troll
+169,police,7,General_poi,troll.png, ,Troll
+170,post_office,7,General_poi,troll.png, ,Troll
+171,local_government_office,7,General_poi,troll.png, ,Troll
+172,general_contractor,NA,General_non_poi,, ,
+173,moving_company,NA,General_non_poi,, ,
+174,storage,NA,General_non_poi,, ,
+175,finance,7,General_poi,troll.png, ,Troll
+176,atm,7,General_poi,troll.png, ,Troll
+177,bank,7,General_poi,troll.png, ,Troll

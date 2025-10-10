@@ -1,0 +1,103 @@
+# =========================================
+# General
+# =========================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+*.log
+*.sqlite3
+*.db
+*.swp
+.DS_Store
+Thumbs.db
+
+# =========================================
+# Python / FastAPI / SQLAlchemy
+# =========================================
+.env
+.venv/
+venv/
+env/
+instance/
+*.pem
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# =========================================
+# Alembic
+# =========================================
+alembic/versions/__pycache__/
+# Optionally ignore Alembic migrations (uncomment if you regenerate often)
+# alembic/versions/
+
+# =========================================
+# PostgreSQL
+# =========================================
+*.pgdata/
+pgdata/
+postgres_data/
+
+# =========================================
+# Docker
+# =========================================
+# Ignore volumes, build artifacts, and cache
+**/docker-compose.override.yml
+**/docker-compose.local.yml
+**/build/
+**/tmp/
+**/.cache/
+**/.pytest_cache/
+
+# Docker volumes or local db data
+data/
+db_data/
+volumes/
+
+# =========================================
+# Node / React frontend
+# =========================================
+# dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+# build output
+build/
+dist/
+.cache/
+coverage/
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# React editor junk
+*.tsbuildinfo
+*.eslintcache
+
+# =========================================
+# Logs
+# =========================================
+logs/
+*.log
+*.out
+*.err
+
+# =========================================
+# OS & IDE
+# =========================================
+*.bak
+*.tmp
+*.old
+*.orig
+*~
+*.sublime-workspace
+*.sublime-project

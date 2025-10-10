@@ -1,0 +1,4 @@
+body { margin: 0; font-family: Inter, Arial, sans-serif; }
+input { width: 100%; padding: 6px 8px; box-sizing: border-box; margin-top: 4px; }
+label { display: block; margin-top: 8px; font-size: 14px; }
+button { padding: 8px 12px; }
