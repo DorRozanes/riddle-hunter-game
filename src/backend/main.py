@@ -3,10 +3,15 @@ from fastapi.middleware.cors import CORSMiddleware
 import sqlalchemy
 from sqlalchemy.orm import Session
 from contextlib import asynccontextmanager
-from .db import engine, Base, init_postgis
-from .dependencies import get_db
-from .routers import auth, user, location
-from .enemies import router as enemies_router
+import os
+import sys
+
+sys.path.insert(0, os.path.dirname(__file__))
+
+from db import engine, Base, init_postgis, check_schema_sync
+from dependencies import get_db
+from routers import auth, user, location
+from enemies import router as enemies_router
 
 
 # Lifespan handler
@@ -14,9 +19,13 @@ from .enemies import router as enemies_router
 async def lifespan(app: FastAPI):
     # Startup: enable PostGIS, then create tables
     init_postgis(engine)
-    from . import models # <--- This is so the models are seen
-    Base.metadata.create_all(bind=engine)
-    print("✅ Database tables created")
+
+    # Schema verification step
+    if not check_schema_sync(engine,Base.metadata):
+        print("❌ Schema mismatch detected — aborting startup.")
+        raise SystemExit(1)
+    else:
+        print("✅ Database and models are synced")
 
     yield  # <-- the app runs while inside this block
 

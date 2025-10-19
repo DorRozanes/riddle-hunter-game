@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 from datetime import datetime
-from .basic_location import PointSchema, PlaceSchema
+from schemas.basic_location import PointSchema, PlaceSchema
 
 class PlaceCreate(BaseModel):
     place: PlaceSchema

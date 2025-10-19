@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 from typing import Optional
 from datetime import datetime
-from ..schemas.basic_location import PointSchema
+from schemas.basic_location import PointSchema
 
 class EnemySchema(BaseModel):
     id: int

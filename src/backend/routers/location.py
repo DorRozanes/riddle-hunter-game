@@ -5,14 +5,14 @@ from shapely.geometry import Point as ShapelyPoint
 from sqlalchemy import select
 from typing import List
 
-from ..models import Place
-from ..schemas.basic_location import PlaceSchema
-from ..services.location_services import log_user_location, orm_place_to_schema, schema_place_to_orm
-from ..utils.google_places import find_location_info_from_google
-from ..utils.box_point_utils import make_bounding_box_schema, make_point_schema, point_schema_to_postgis
-from ..schemas.location import PlaceQueryOut, PlaceQuery, PlaceCreate
-from ..dependencies import get_current_user, get_db
-from ..enums.type_priority import TYPE_PRIORITY
+from models import Place
+from schemas.basic_location import PlaceSchema
+from services.location_services import log_user_location, orm_place_to_schema, schema_place_to_orm
+from utils.google_places import find_location_info_from_google
+from utils.box_point_utils import make_bounding_box_schema, make_point_schema, point_schema_to_postgis
+from schemas.location import PlaceQueryOut, PlaceQuery, PlaceCreate
+from dependencies import get_current_user, get_db
+from enums.type_priority import TYPE_PRIORITY
 
 router = APIRouter(prefix="/api/locations", tags=["locations"])
 

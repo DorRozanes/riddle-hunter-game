@@ -6,8 +6,8 @@ import json
 import ast
 from datetime import datetime
 from openai import OpenAI
-from ..enums.type_locations_for_enemies import PLACE_TYPES
-from .math_riddles import generate_math_riddle
+from enemies.enums.type_locations_for_enemies import PLACE_TYPES
+from enemies.services.math_riddles import generate_math_riddle
 
 # --------------------
 # Offline fallback riddles

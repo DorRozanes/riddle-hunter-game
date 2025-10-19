@@ -4,14 +4,14 @@ from typing import List
 from datetime import datetime
 from shapely import wkb
 
-from ..dependencies import get_db
-from ..dependencies import get_current_user
-from ..models import User, Enemy, Place
-from ..schemas.basic_location import PointSchema, PlaceSchema
-from .enemy_schemas import EnemySchema, EnemyDetailSchema, EnemyDefeatRequest, EnemyDefeatResponse
-from .services.purge_enemies import purge_old_enemies
-from .services.spawn_enemies_service import spawn_enemies
-from .services.general_riddles import check_answer
+from dependencies import get_db
+from dependencies import get_current_user
+from models import User, Enemy, Place
+from schemas.basic_location import PointSchema, PlaceSchema
+from enemies.enemy_schemas import EnemySchema, EnemyDetailSchema, EnemyDefeatRequest, EnemyDefeatResponse
+from enemies.services.purge_enemies import purge_old_enemies
+from enemies.services.spawn_enemies_service import spawn_enemies
+from enemies.services.general_riddles import check_answer
 
 router = APIRouter(prefix="/api/enemies", tags=["enemies"])
 

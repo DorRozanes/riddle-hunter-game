@@ -1,6 +1,6 @@
 from datetime import datetime, timedelta
 from sqlalchemy.orm import Session
-from ...models import Enemy
+from models import Enemy
 
 def purge_old_enemies(db: Session):
     """

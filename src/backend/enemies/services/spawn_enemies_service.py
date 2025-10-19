@@ -5,10 +5,10 @@ from geoalchemy2.shape import from_shape, to_shape
 from sqlalchemy.orm import Session
 from shapely import wkb
 
-from ...models import Enemy
-from ...enums.type_priority import TYPE_PRIORITY
-from ..enums.type_locations_for_enemies import PLACE_TYPES
-from .general_riddles import get_riddle
+from models import Enemy
+from enums.type_priority import TYPE_PRIORITY
+from enemies.enums.type_locations_for_enemies import PLACE_TYPES
+from enemies.services.general_riddles import get_riddle
 
 
 def get_enemy_type_for_place(place_type: str):

@@ -1,10 +1,10 @@
 from sqlalchemy.orm import Session
 from geoalchemy2.shape import to_shape
 from shapely.geometry import Polygon
-from ..models import Place, LocationHistory
-from ..utils.google_places import find_location_info_from_google
-from ..utils.box_point_utils import bbox_schema_to_postgis_polygon
-from ..schemas.basic_location import PlaceSchema, PointSchema, BoundingBox4Point
+from models import Place, LocationHistory
+from utils.google_places import find_location_info_from_google
+from utils.box_point_utils import bbox_schema_to_postgis_polygon
+from schemas.basic_location import PlaceSchema, PointSchema, BoundingBox4Point
 
 def find_local_place(db: Session, lat: float, lng: float) -> Place | None:
     return (
