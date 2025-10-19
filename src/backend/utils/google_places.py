@@ -1,6 +1,6 @@
 import requests
 import os
-from ..schemas.basic_location import PointSchema
+from schemas.basic_location import PointSchema
 
 GOOGLE_API_KEY = os.getenv("google_api_key")
 

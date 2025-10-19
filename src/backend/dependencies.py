@@ -3,9 +3,9 @@ from fastapi.security import OAuth2PasswordBearer
 from sqlalchemy.orm import Session
 import jwt
 
-from .config import get_settings
-from .models import User
-from .db import SessionLocal
+from config import get_settings
+from models import User
+from db import SessionLocal
 
 
 

@@ -1,36 +1,38 @@
 from logging.config import fileConfig
+
 from sqlalchemy import engine_from_config
 from sqlalchemy import pool
+
 from alembic import context
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
 config = context.config
 
+##### This is my custom part
+import sys
+import os
+from dotenv import load_dotenv
+# --- Add backend folder to Python path ---
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+sys.path.insert(0, BASE_DIR)
+load_dotenv()
+DATABASE_URL = (
+            f"postgresql+psycopg2://{os.getenv('POSTGRES_USER')}:{os.getenv('POSTGRES_PASSWORD')}"
+            f"@{os.getenv('POSTGRES_HOST')}:{os.getenv('POSTGRES_PORT')}/{os.getenv('POSTGRES_DB')}"
+        )
+config.set_main_option("sqlalchemy.url", DATABASE_URL)
+
 # Interpret the config file for Python logging.
 # This line sets up loggers basically.
 if config.config_file_name is not None:
     fileConfig(config.config_file_name)
 
-# Load .env.backend
-from pathlib import Path
-import os
-from dotenv import load_dotenv
-
-# Load the .env file
-env_path = Path(__file__).parent.parent / ".env"
-load_ok = load_dotenv(env_path)
-
-# Metadata for autogenerate
-import src.backend.models
-from src.backend.db import Base, engine
+# add your model's MetaData object here
+from db import Base
+from models import *  # 👈 ensures all models register on Base.metadata
 target_metadata = Base.metadata
 
-# Config sqlalchemy.url
-from src.backend.config import get_settings
-settings = get_settings()
-alembic_config = context.config
-alembic_config.set_main_option("sqlalchemy.url", settings.database_url)
 
 # other values from the config, defined by the needs of env.py,
 # can be acquired:
@@ -50,8 +52,7 @@ def run_migrations_offline() -> None:
     script output.
 
     """
-    url = str(engine.url)
-    print ("------>", url)
+    url = config.get_main_option("sqlalchemy.url", DATABASE_URL)
     context.configure(
         url=url,
         target_metadata=target_metadata,
@@ -76,9 +77,19 @@ def run_migrations_online() -> None:
         poolclass=pool.NullPool,
     )
 
+    def include_object(object, name, type_, reflected, compare_to):
+        # Skip PostGIS extension tables and views
+        if type_ == "table" and name in {"spatial_ref_sys", "layer", "topology"}:
+            return False
+        return True
+
     with connectable.connect() as connection:
         context.configure(
-            connection=connection, target_metadata=target_metadata
+            connection=connection,
+            target_metadata=target_metadata,
+            include_object=include_object,
+            compare_type=True,
+            compare_server_default=True,
         )
 
         with context.begin_transaction():

@@ -5,8 +5,7 @@ from shapely.geometry import Point as ShapelyPoint
 from geoalchemy2.elements import WKBElement
 import math
 
-# Your schemas
-from ..schemas.basic_location import PointSchema, BoundingBox4Point, BoundingBox2Point, BoundingBox
+from schemas.basic_location import PointSchema, BoundingBox4Point, BoundingBox2Point, BoundingBox
 
 
 ### Bounding box utils

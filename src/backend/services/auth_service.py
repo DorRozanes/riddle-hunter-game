@@ -5,8 +5,8 @@ import jwt
 
 from sqlalchemy.orm import Session
 
-from ..models import User
-from ..config import get_settings
+from models import User
+from config import get_settings
 
 settings = get_settings()
 
