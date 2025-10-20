@@ -20,6 +20,8 @@ async def lifespan(app: FastAPI):
     # Startup: enable PostGIS, then create tables
     init_postgis(engine)
 
+    Base.metadata.create_all(bind=engine)
+
     # Schema verification step
     if not check_schema_sync(engine,Base.metadata):
         print("❌ Schema mismatch detected — aborting startup.")

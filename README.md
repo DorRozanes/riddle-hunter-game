@@ -73,21 +73,33 @@ project-root/
 ├── nginx.conf
 └── README.md
 ```
-## 🚀 Getting Started (Development)
-1️⃣ Clone the repository
+
+## 🚀 Deploying the game
+1. Clone the repository
 git clone https://github.com/<your-username>/<your-repo>.git
 cd <your-repo>
 
-2️⃣ Environment variables
-
+2. Environment variables
 Use .env.example to generate a .env, and place it in the project root.
 Create a copy of this .env and place it in /src/frontend
 (I know, I know, uniting them is on the to-do list).
 
-## 🧱 Dockerized Setup
-Build & run all services
-docker compose up --build
+3. Build & run all services
+docker compose up -d --build
 
+## Other stuff
+
+### Database migrations
+This app uses Alembic for database migrations.
+The backend validates SQLAlchemy models against the actual database on startup, 
+and will prevent you from starting the service if there's a mismatch.
+
+
+To generate a migration plan:
+alembic revision --autogenerate -m "Migration message here"
+
+To execute the migration:
+alembic upgrade head
 
 ### Services:
 
@@ -95,7 +107,7 @@ docker compose up --build
 
 💎 frontend → http://localhost
 
-🐘 Postgres → exposed internally as db:5432
+🐘 Postgres → http://localhost:5432
 
 ### Rebuild only one service
 docker compose build frontend
@@ -105,11 +117,15 @@ docker compose logs -f backend
 
 ## 🧰 Backend Development
 
-Run locally (without Docker):
+To run locally (without Docker):
 
+Build the database service:
+docker compose build db
+
+
+Run the backend with uvicorn:
 cd src/backend
 uvicorn main:app --reload
-
 
 ### Interactive docs:
 
@@ -133,34 +149,6 @@ npm start
 Frontend dev server → http://localhost:3000
 
 (connected to FastAPI backend at port 8000)
-
-## 🧩 Production Build
-Build only the frontend production image
-docker build -t geocaching-frontend -f Dockerfile.frontend .
-
-Build only the backend production image
-docker build -t geocaching-backend -f Dockerfile.backend .
-
-
-Then serve them via Nginx or Compose:
-
-docker compose -f docker-compose.prod.yml up -d
-
-## ☁️ Deployment Overview (EC2 or Cloud)
-
-Provision an EC2 instance (Ubuntu preferred)
-
-Install Docker & Docker Compose
-
-Clone this repo on the server
-
-Set environment variables in .env
-
-Run docker compose up -d
-
-Optionally, add Nginx reverse proxy + Let’s Encrypt SSL
-
-After deployment, your app will be accessible at your EC2 public DNS or domain.
 
 ## 🧙‍♂️ Developer Notes
 
