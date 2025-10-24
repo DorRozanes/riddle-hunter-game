@@ -1,7 +1,13 @@
-# Geocaching Adventure App
-
-A full-stack web application that lets users explore a virtual world of monsters and riddles.
-The project uses a **FastAPI** backend with a **React** frontend, served through **Docker** containers for production deployment.
+# Geolocation Adventure App
+## Installation
+- Register to Google Cloud. Open a project and get an API key for Maps JavaScript API.
+- Register to Hugging Face (free) and get an API key. 
+- Install Docker.
+- Clone the repo.
+- Save .env.example as .env, and enter your keys.
+- Copy .env to /src/frontend
+- Run "docker compose up -d --build"
+- Sign in and use ngrok, if you want to access it from other devices.
 
 ### Note from Dor:
 Hey guys, welcome to my game :) <br>
@@ -74,19 +80,6 @@ project-root/
 └── README.md
 ```
 
-## 🚀 Deploying the game
-1. Clone the repository
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
-
-2. Environment variables
-Use .env.example to generate a .env, and place it in the project root.
-Create a copy of this .env and place it in /src/frontend
-(I know, I know, uniting them is on the to-do list).
-
-3. Build & run all services
-docker compose up -d --build
-
 ## Other stuff
 
 ### Database migrations
@@ -149,14 +142,3 @@ npm start
 Frontend dev server → http://localhost:3000
 
 (connected to FastAPI backend at port 8000)
-
-## 🧙‍♂️ Developer Notes
-
-The app supports both logged-in users (for riddles & rewards)
-and guests (map exploration).
-
-Enemies appear dynamically and expire after 24h.
-
-Backend is stateless and easy to scale horizontally.
-
-Designed for minimal EC2 footprint (≈300–500 MB total image size).
